@@ -1,0 +1,20 @@
+{
+"secondName":"Сандалов",
+"firstName":"Никита",
+"lastName":"Владимирович",
+"age":26,
+"city":"Киров",
+"passport": {
+   "series":"3315",
+   "passportNumber":"122984",
+   "passportIssued":"УМВД России по Кировской области",
+   "passportIssueDate":"2010.10.12"
+   },
+"averageIncome":50000,
+"phoneNumber":"89536824728",
+"mail":"sandalov-1997@mail.ru",
+"applicationDate":"2024.08.08T10:25:43.511Z",
+"creditSum":500000,
+"creditTime":1,
+"applicationStatus":true
+}
