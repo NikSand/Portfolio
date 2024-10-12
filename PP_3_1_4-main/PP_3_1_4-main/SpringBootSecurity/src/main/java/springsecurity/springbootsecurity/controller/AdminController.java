@@ -14,11 +14,8 @@ import springsecurity.springbootsecurity.model.Role;
 import springsecurity.springbootsecurity.model.User;
 import springsecurity.springbootsecurity.services.RoleService;
 import springsecurity.springbootsecurity.services.UserService;
-
-
 import java.security.Principal;
 import java.util.List;
-
 
 @Controller
 @RequestMapping("/admin")
@@ -33,8 +30,6 @@ public class AdminController {
         this.userService = userService;
         this.roleService = roleService;
     }
-
-
 
     @GetMapping()
     public String showAll(@ModelAttribute("user") User user, Principal principal, Model model) {
@@ -64,5 +59,4 @@ public class AdminController {
         userService.deleteUser(id);
         return REDIRECT;
     }
-
 }
