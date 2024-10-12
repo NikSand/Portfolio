@@ -19,9 +19,6 @@ public class UserController {
         this.userService = userService;
     }
 
-    // Principal нужен для того, чтобы мы могли отобразить данные
-   //  мы можем вызвать принципал из любого места кода, так как он есть в контексте(в текущей сессии пользователя)
-
     @GetMapping("")
     public String showUserAcc(Principal principal, Model model) {
 
